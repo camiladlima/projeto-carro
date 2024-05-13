@@ -27,14 +27,17 @@
     scrollbar-width: none;
 }
   
-
-
 header{
-    background-image: url(https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/modelseries-j1-taycan-indoor-03/zoom2/e6e8f2ef-a66f-11ea-80ca-005056bbdc38;sK;twebp/porsche-zoom2.webp);
+    background-image: url("img/\ carro002.jpg"); 
     height: 100vh;
     width: 100vw;
     background-position: center center;
     background-attachment: fixed;
+}
+
+#video{
+  height: 100%;
+  width: 100%;
 }
 
 nav{
@@ -52,11 +55,15 @@ nav > a{
     margin-top: 10px;
 }
 
+#sobre-nos{
+  
+}
+
 h1#titulo{
     
     font-family: "Sedan SC", serif;
-    color: #fcf9f9;
-    text-shadow: #575858;
+    color: #e8dfdf;
+    text-shadow: lightgray;
     font-size: 50px;
     text-align: center;
     position: absolute;
@@ -64,6 +71,7 @@ h1#titulo{
     left: 50%;
     transform: translate(-50%, -50%);
     font-variant: small-caps;
+    
 }
 
 #buton{
@@ -87,18 +95,14 @@ h1#titulo{
     color: #FFFFFF;
     height: 100vh;
     width: 100vw;
-    background-position: left bottom;
+    background-image: url("https://images.pexels.com/photos/13074506/pexels-photo-13074506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    width: 100vw;
 }
 
 #img{
-    /* height: 700px;
-    width: 1000px; */
-    background-position: left bottom; 
-    position: absolute;
-    padding-top: 300px;
-    padding-right: 400px; 
-    width: 40%;
-
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
 }
 
 #inicio{
@@ -109,6 +113,7 @@ h1#titulo{
     padding-right: 0px;
     left: 50%;
     right: 10%;
+    
 }
 
 
